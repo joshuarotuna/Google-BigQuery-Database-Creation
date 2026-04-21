@@ -10,18 +10,27 @@ Dataset:      nfl_pickem
 ## Tables (5)
 Table	Description
 seasons	League metadata per year — buy-in, prize payouts, champion
+
 players	One row per player per season — display name, nickname
+
 picks	Core fact table — one row per player per week which shows each week’s pick
+
 weekly_results	Winning NFL teams per week — source of truth for win/loss
+
 projections	Monte Carlo simulation snapshots — win probabilities by week
 ### Views (3)
 View	Description
+
 v_leaderboard	Live season standings with wins and win % — used in Looker Studio
+
 v_projections_latest	Most recent projections snapshot
+
 v_projections_compare	Side-by-side probability comparison between any two weeks
+
  
 ### Schema
 seasons
+
 Stores league-level metadata for each year.
 Column	Type	Description
 season_year	INT64	Primary key — e.g. 2025

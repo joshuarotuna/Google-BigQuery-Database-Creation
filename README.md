@@ -106,6 +106,8 @@ AND b.as_of_week = 11   -- to week
 ### ETL Pipeline
 All data loading is handled via Google Colab notebooks using the BigQuery Python client with load_table_from_dataframe (batch load — compatible with the free Sandbox tier). 
 It is currently loaded via manual selection of historical Excel files. Efforts will be evaluated to automate this further.
+
+Refer to nfl_pickem SQL Load Scripts.ipynb
  
 ### Data Sources
 Source	Used For

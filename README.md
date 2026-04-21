@@ -103,11 +103,11 @@ Excel (2025_NFL_Pick_Em.xlsx)	Player picks — sheet: Picks, header row 4
 ESPN API — scoreboard endpoint	Weekly game results (winning teams)
 ESPN API — standings endpoint	Current NFL team win % for projections
 ESPN API endpoints:
-# Weekly results
+### Weekly results
 https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
   ?dates={YEAR}&seasontype=2&week={WEEK}
 
-# Team standings
+### Team standings
 https://site.api.espn.com/apis/site/v2/sports/football/nfl/standings
 ESPN's API is unofficial and undocumented. No authentication required but endpoints may change without notice.
  

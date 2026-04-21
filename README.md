@@ -29,7 +29,7 @@ v_projections_compare	Side-by-side probability comparison between any two weeks
 
  
 ### Schema
-seasons
+### seasons
 
 Stores league-level metadata for each year.
 Column	Type	Description

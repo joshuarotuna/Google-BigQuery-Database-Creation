@@ -1,5 +1,5 @@
 # Google-BigQuery-Database-Creation
-Created a lightweight but optimal database in Google BigQuery to house historical NFL Analytics (personal league) data.
+Created a relational database in Google BigQuery to house historical NFL Analytics (personal league) data.
 
 ## NFL Pick Em League — BigQuery Database
 A relational data warehouse built in Google BigQuery to store, analyze, and project results for an annual NFL Pick Em league. Players select one NFL team per week to win — no team can be picked more than once per season. This league has been running for over 5 years now and this database aims to serve as a storage for historical data – to allow for accessibility and creative analysis as a fun and meaningful personal project. This database powers live standings, historical analysis, and a Monte Carlo win probability model.

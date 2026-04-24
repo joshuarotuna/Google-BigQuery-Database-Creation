@@ -29,7 +29,7 @@ v_projections_latest	Most recent projections snapshot
 v_projections_compare	Side-by-side probability comparison between any two weeks
 
  
-### Schema
+## Schema
 ### seasons
 
 Stores league-level metadata for each year.
@@ -88,7 +88,7 @@ Tiebreaker logic Per league rules, the tiebreaker rewards players who pick lower
 Player identity across seasons player_id is scoped per season (e.g. josh_commish_2025). To link a player across multiple seasons, join on display_name. This allows nicknames and display names to change year to year without breaking historical data.
 Projections are snapshots, not overwritten Each weekly run of the Monte Carlo simulation appends a new set of rows tagged with as_of_week. This preserves the full history of how probabilities evolved, enabling week-over-week comparison via v_projections_compare.
  
-### Views
+## Views
 v_leaderboard
 Joins picks + players + weekly_results to produce a live season leaderboard. Recalculates automatically whenever weekly_results is updated. Used as the primary data source in Looker Studio.
 SELECT display_name, nickname, total_picks, wins, win_pct
